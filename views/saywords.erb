@@ -1,1 +1,12 @@
+<% case @operation
+when "add" %>
+<%= @num1 + @num2 %>
+<% when "subtract" %>
+<%= @num1 - @num2 %>
+<% when "multiply" %>
+<%= @num1 * @num2 %>
+<% when "divide" %>
+<%= @num1 / @num2 %>
+<% end %>
+
 <%=  "#{@word1} #{@word2} #{@word3} #{@word4} #{@word5}."%>
